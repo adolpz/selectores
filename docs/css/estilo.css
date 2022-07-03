@@ -1,0 +1,94 @@
+/* selector univerlar */
+*{
+    margin: 0;
+   padding: 0; 
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(30, 144, 59);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+
+/* selector de etiqueta */
+body{
+    /* background-image: url("https://www.xtrafondos.com/wallpapers/resized/paisaje-digital-en-atardecer-5846.jpg?s=large"); */
+    background-image: url("https://cdn.pixabay.com/photo/2020/03/18/10/09/mountain-4943472_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* estilos para el logo */
+.log{
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+/* estilos para la etiqueta nav que contiene un menu de navegacion */
+.menu ul {
+    list-style: none;
+
+}
+
+
+.menu ul li {
+    position: relative;
+    float: left;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: yellow;
+    display: block;
+
+}
+
+.menu ul li a:hover{
+    background-color: black;
+} 
+
+/* stilo del contenedor principal */
+main{
+    top: 70px;
+    background-color: rgb(240, 248, 225, 0.891);
+    box-shadow: 2px 5px 20px rgb(240, 248, 225, 0.891);
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* Estilo para la letra capital */
+.letracapital::first-letter{
+    font-size: 50px;
+    font-weight: bold;
+    color: blue;
+    margin: 5px;
+}
+
+/* Estilo para los h1 y h2 */
+section h1, article h2{
+    text-align: center;
+    border-bottom: 1px solid rgb(131, 0, 0);
+}
+
+/* Estilos para los parrafos de la etiqueta article */
+select article p{
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+}
