@@ -87,7 +87,7 @@ section h1, article h2{
 }
 
 /* Estilos para los parrafos de la etiqueta article */
-select article p{
+section article p{
     text-align: justify;
     font-size: 20px;
     margin: 20px;
